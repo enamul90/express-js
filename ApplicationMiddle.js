@@ -2,7 +2,7 @@ let express = require('express')
 app = express();
 
 app.use(function (req, res, next){
-    console.log('service start meddilewire')
+    console.log('service start Meddile wire')
     next();
 });
 
