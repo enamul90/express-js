@@ -39,9 +39,7 @@ app.post('/upload', function (req, res){
             res.send('file upload dome')
         }
     })
-})
-
-
+});
 
 
 
