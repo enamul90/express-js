@@ -7,7 +7,7 @@ app.get('/', function (req, res){
     res.end('welcome.js')
 });
 
-// Get Request With URL Query
+// Get Request With URL Query  URL http://localhost:8000/url?fastName=Enamul&lastName=Firoz
 app.get('/url', function (req, res){
 
     let fastName = req.query.fastName;
