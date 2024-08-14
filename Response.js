@@ -37,8 +37,8 @@ app.get('/fore', function (req, res){
         },
 
         {
-            name: "enamul",
-            fanthe: "my father",
+            name: "Enamul",
+            father: "my father",
             age:20,
         },
     ]
